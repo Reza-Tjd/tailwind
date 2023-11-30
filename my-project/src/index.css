@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: inter;
+    src: url(/my-project/public/static/Inter-Medium.ttf) format("truetype");
+  }
+}
